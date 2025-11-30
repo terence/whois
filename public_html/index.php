@@ -217,10 +217,6 @@ if ($q === '') {
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-                        <div style="text-align:center;color:var(--muted)">
-                            300 × 600 Ad placeholder
-                            <div style="font-size:11px;margin-top:8px;color:var(--muted)">Replace with your AdSense code</div>
-                        </div>
                     </div>
                 </div>
             </aside>
