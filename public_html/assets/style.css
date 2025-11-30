@@ -41,8 +41,8 @@ pre{white-space:pre-wrap;background:rgba(0,0,0,0.03);padding:12px;border-radius:
 .switch input:checked + .slider:before{transform:translateX(18px)}
 
 .label-muted{color:var(--muted);font-size:.9rem}
-.ad{width:300px}
-.ad .box{width:300px;height:600px}
+.ad{width:350px}
+.ad .box{width:350px;height:600px}
 footer{margin-top:28px;color:var(--muted);font-size:.9rem;text-align:center}
 
 .card .clear-light{background:#e2e8f0;color:var(--fg)}
