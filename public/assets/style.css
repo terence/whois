@@ -19,7 +19,7 @@ body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;m
 .container{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
 @media (max-width:900px){.container{grid-template-columns:1fr}.ad{display:none}}
 .card{background:var(--card);border-radius:8px;padding:20px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
-h1{margin:0 0 12px 0}
+h1{margin:0 0 12px 0; color: red}
 label{display:block;margin-bottom:12px}
 input[type=text]{width:100%;padding:12px;border-radius:6px;border:1px solid rgba(0,0,0,0.08);background:transparent;color:var(--fg)}
 select{padding:8px;margin-left:6px}

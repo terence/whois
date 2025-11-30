@@ -205,14 +205,18 @@ if ($q === '') {
             <aside class="ad">
                 <div class="card">
                     <div class="box">
-                        <!-- 300x600 AdSense placeholder. Replace CLIENT/ADSLOT below with your real values. -->
-                        <!-- Example AdSense markup (disabled by default):
-                        <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:600px"
-                                 data-ad-client="ca-pub-YOUR-ADSENSE-CLIENT"
-                                 data-ad-slot="YOUR-ADSLOT"></ins>
-                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                        -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8376419508952050"
+     crossorigin="anonymous"></script>
+<!-- Skyscraper 300x600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8376419508952050"
+     data-ad-slot="1820822477"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
                         <div style="text-align:center;color:var(--muted)">
                             300 × 600 Ad placeholder
                             <div style="font-size:11px;margin-top:8px;color:var(--muted)">Replace with your AdSense code</div>
@@ -282,16 +286,14 @@ if ($q === '') {
             document.getElementById('clearBtn').addEventListener('click', () => { qf.value=''; resultWrap.style.display='none'; });
         </script>
 
-        <!-- Google Analytics placeholder (replace MEASUREMENT_ID with your ID) -->
-        <!--
-        <script async src="https://www.googletagmanager.com/gtag/js?id=MEASUREMENT_ID"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
-            gtag('config', 'MEASUREMENT_ID');
-        </script>
-        -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3R3LYKS2R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3R3LYKS2R');
+</script>
 
         <?php
         exit;
