@@ -1,0 +1,48 @@
+:root{
+  --bg:#ffffff;
+  --fg:#111827;
+  --muted:#6b7280;
+  --card:#f3f4f6;
+  --accent:#2563eb;
+}
+html[data-theme="dark"]{
+  --bg:#0b1220;
+  --fg:#e6eef6;
+  --muted:#9aa9b8;
+  --card:#091123;
+  --accent:#60a5fa;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;margin:0;background:var(--bg);color:var(--fg);padding:24px}
+.container{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
+@media (max-width:900px){.container{grid-template-columns:1fr}.ad{display:none}}
+.card{background:var(--card);border-radius:8px;padding:20px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+h1{margin:0 0 12px 0}
+label{display:block;margin-bottom:12px}
+input[type=text]{width:100%;padding:12px;border-radius:6px;border:1px solid rgba(0,0,0,0.08);background:transparent;color:var(--fg)}
+select{padding:8px;margin-left:6px}
+.actions{display:flex;gap:8px;align-items:center}
+button{background:var(--accent);border:0;color:white;padding:10px 12px;border-radius:6px;cursor:pointer}
+pre{white-space:pre-wrap;background:rgba(0,0,0,0.03);padding:12px;border-radius:6px;overflow:auto;color:var(--fg)}
+.label-muted{color:var(--muted);font-size:.9rem}
+.ad{width:300px}
+.ad .box{width:300px;height:600px;background:linear-gradient(90deg,#e6e9ef,#fbfbfb);display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px dashed rgba(0,0,0,0.12);color:#333}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.dark-toggle{display:flex;align-items:center;gap:10px}
+
+/* toggle switch */
+.switch{position:relative;display:inline-block;width:44px;height:26px}
+.switch input{opacity:0;width:0;height:0;position:absolute}
+.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#cbd5e1;transition:.25s;border-radius:26px;box-shadow:inset 0 -2px 6px rgba(0,0,0,0.08)}
+.slider:before{position:absolute;content:'';height:20px;width:20px;left:3px;top:3px;background:white;border-radius:50%;transition:.25s;box-shadow:0 2px 6px rgba(0,0,0,0.12)}
+.switch input:checked + .slider{background:var(--accent)}
+.switch input:checked + .slider:before{transform:translateX(18px)}
+
+.label-muted{color:var(--muted);font-size:.9rem}
+.ad{width:300px}
+.ad .box{width:300px;height:600px}
+footer{margin-top:28px;color:var(--muted);font-size:.9rem;text-align:center}
+
+.card .clear-light{background:#e2e8f0;color:var(--fg)}
