@@ -27,8 +27,8 @@ select{padding:8px;margin-left:6px}
 button{background:var(--accent);border:0;color:white;padding:10px 12px;border-radius:6px;cursor:pointer}
 pre{white-space:pre-wrap;background:rgba(0,0,0,0.03);padding:12px;border-radius:6px;overflow:auto;color:var(--fg)}
 .label-muted{color:var(--muted);font-size:.9rem}
-.ad{width:300px}
-.ad .box{width:300px;height:600px;background:linear-gradient(90deg,#e6e9ef,#fbfbfb);display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px dashed rgba(0,0,0,0.12);color:#333}
+.ad{width:350px}
+.ad .box{width:350px;height:600px;background:linear-gradient(90deg,#e6e9ef,#fbfbfb);display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px dashed rgba(0,0,0,0.12);color:#333}
 .topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
 .dark-toggle{display:flex;align-items:center;gap:10px}
 
@@ -41,8 +41,6 @@ pre{white-space:pre-wrap;background:rgba(0,0,0,0.03);padding:12px;border-radius:
 .switch input:checked + .slider:before{transform:translateX(18px)}
 
 .label-muted{color:var(--muted);font-size:.9rem}
-.ad{width:350px}
-.ad .box{width:350px;height:600px}
 footer{margin-top:28px;color:var(--muted);font-size:.9rem;text-align:center}
 
 .card .clear-light{background:#e2e8f0;color:var(--fg)}
